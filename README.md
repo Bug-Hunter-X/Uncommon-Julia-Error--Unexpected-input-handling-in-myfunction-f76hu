@@ -1,0 +1,2 @@
+# Uncommon Julia Error: Unexpected input handling in myfunction
+This repository demonstrates a potential bug in a Julia function and its solution. The function `myfunction` is designed to return the square of a positive number and 0 for non-positive numbers. However, it lacks robust handling for non-numeric inputs. This can lead to runtime errors if the function receives an unexpected data type as input. The solution addresses this by adding input validation to improve the function's robustness.
